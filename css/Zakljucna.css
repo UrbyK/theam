@@ -1,0 +1,1062 @@
+@import url(http://fonts.googleapis.com/css?family=Oxygen+Mono);
+
+/* Starter CSS for Menu */
+
+body{
+    margin: 0 auto;
+    padding: 0px;
+    max-width: 1980px;
+    font-size: 15px;
+    font-family: 'Josefin Slab', Helvetica, Palatino, Verdana, sans-serif;
+
+}
+
+a{
+    color: #1b9bff;
+    font-family: "Open Sans", Helvetica, sans-serif;
+}
+
+
+
+/*Banner text/izgled*/
+.banner{
+    margin-left: 25px;
+    margin-top: 5px;
+    min-height: 80px;
+    margin-bottom: 5px;
+    font-size: 14px;
+
+}
+
+.banner-img{
+    position: relative;
+    float: left;
+
+}
+
+.banner-text{
+    margin-left: 5px;
+    position: relative;
+    float: left;
+    padding-left: 15px;
+    align-content: center;
+    line-height: 1.5;
+    padding-bottom: 20px;
+    color: black;
+}
+
+.banner-text a{
+    color: black;
+}
+
+.banner-text a:hover{
+    color: #3399ff;
+    font-weight: bold;
+}
+
+.banner-text .naslov{
+    font-size: 20px;
+    line-height: normal;
+    margin-bottom: -20px;
+    color: black;
+    font-weight: bold;
+    
+}
+
+/*Logo*/
+.banner{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.banner img{
+    width: auto;
+    height: auto;
+    max-height: 110px;
+}
+
+/*Besedilo*/
+.container{
+    max-width: 100%;
+    width: 80%;
+    height: auto;
+    align-content: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+    color: #1b9bff;
+    font-family: 'Oxygen Mono', Tahoma, Arial, sans-serif;
+    /*font-family: 'Oxygen Mono', Tahoma, Arial, sans-serif;*/
+}
+
+h1{
+    font-size: 20px;
+}
+
+h2{
+    font-size: 18px;
+}
+
+h3{
+    font-size: 16px;
+}
+
+h4{
+    font-size: 14px;
+}
+
+h5{
+    font-size: 12px;
+}
+
+h6{
+    font-size: 10px;
+}
+
+/* Nav container look/display */
+.navbar{
+    z-index: 10000;
+    background-color: #535355;
+    /*border-bottom: 4px solid #3399ff;*/
+    width: auto;
+    display: block;
+    height: auto;
+}
+
+/*menu-main-menu-navigation*/
+#menu-main-manu-navigation{
+    margin-left: -50%;
+    
+}
+
+/*Besedilo v menu vrstici*/
+.navbar-brand{
+    visibility: hidden;
+    font-family: cursive;
+    font-size: 0;
+    color: #009900;
+    height: 0px;
+    width: 0px;
+
+}
+
+/*
+.navbar-brand:before{
+    content: "Center za socialno delo trbovlje";
+    color: #3399ff;
+    visibility: visible;
+} */
+
+
+.navbar-container{
+    text-align: center;
+    align-content: center;
+    margin: 0 auto;
+    display: table;
+    position: relative;
+
+    
+}
+
+
+/* Nav button look/display */
+
+.navbar-collapse.in {
+    overflow: inherit;
+}
+
+#bs-example-navbar-collapse-1 {
+  padding: 0;
+  margin:0 auto;
+  border: 0;
+}
+#bs-example-navbar-collapse-1 ul,
+#bs-example-navbar-collapse-1 li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: auto;
+}
+#bs-example-navbar-collapse-1 ul {
+  position: relative;
+  z-index: 597;
+}
+#bs-example-navbar-collapse-1 ul li {
+  float: left;
+  min-height: 1px;
+  vertical-align: middle;
+    border-bottom: 3px, solid, #535353;
+}
+#bs-example-navbar-collapse-1 ul li.hover,
+#bs-example-navbar-collapse-1 ul li:hover {
+  position: relative;
+  z-index: 599;
+  cursor: default;
+}
+#bs-example-navbar-collapse-1 ul ul {
+  visibility: hidden;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 598;
+  width: 100%;
+}
+#bs-example-navbar-collapse-1 ul ul li {
+  float: none;
+}
+#bs-example-navbar-collapse-1 ul ul ul {
+  top: 0;
+  left: 50%;
+    top: 65%;
+  width: auto;
+}
+#bs-example-navbar-collapse-1 ul li:hover > ul {
+  visibility: visible;
+}
+#bs-example-navbar-collapse-1 ul ul {
+  bottom: 0;
+  left: 0;
+}
+#bs-example-navbar-collapse-1 ul ul {
+  margin-top: 0;
+}
+#bs-example-navbar-collapse-1 ul ul li {
+  font-weight: normal;
+}
+#bs-example-navbar-collapse-1 a {
+  display: block;
+  line-height: 1em;
+  text-decoration: none;
+}
+/* Custom CSS Styles */
+#bs-example-navbar-collapse-1 {
+  background: #535355 ();
+  border-bottom: 4px solid #3399ff;
+  font-family: 'Oxygen Mono', Tahoma, Arial, sans-serif;
+  font-size: 18px;
+    font-weight: bold;
+}
+#bs-example-navbar-collapse-1 > ul {
+  *display: inline-block;
+    line-height: 100px;
+}
+#bs-example-navbar-collapse-1:after,
+#bs-example-navbar-collapse-1 ul:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+#bs-example-navbar-collapse-1 ul {
+  text-transform: uppercase;
+}
+#bs-example-navbar-collapse-1 ul ul {
+  border-top: 4px solid /*Top-Border 1 sub-menija*//*#3399ff*/;
+  text-transform: none;
+  min-width: 190px;
+}
+#bs-example-navbar-collapse-1 ul ul a {
+  background: #3399ff;
+  color: #ffffff;
+  /*border: 1px solid #0082e7;*/
+  border-top: 0 none;
+  line-height: 150%;
+  padding: 16px 20px;
+  font-size: 12px;
+  font-family: 'Oxygen Mono', Tahoma, Arial, sans-serif;
+}
+#bs-example-navbar-collapse-1 ul ul ul {
+  border-top: 0 none;
+}
+#bs-example-navbar-collapse-1 ul ul li {
+  position: relative;
+}
+#bs-example-navbar-collapse-1 ul ul li:first-child > a {
+  border-top: 1px solid #0082e7;
+}
+#bs-example-navbar-collapse-1 ul ul li:hover > a {
+  background: #4eb1ff;
+  color: #ffffff;
+}
+#bs-example-navbar-collapse-1 ul ul li:last-child > a {
+  -moz-border-radius: 0 0 3px 3px;
+  -webkit-border-radius: 0 0 3px 3px;
+  border-radius: 0 0 3px 3px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -moz-box-shadow: 0 1px 0 #3399ff;
+  -webkit-box-shadow: 0 1px 0 #3399ff;
+  box-shadow: 0 1px 0 #3399ff;
+}
+#bs-example-navbar-collapse-1 ul ul li:last-child:hover > a {
+  -moz-border-radius: 0 0 0 3px;
+  -webkit-border-radius: 0 0 0 3px;
+  border-radius: 0 0 0 3px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+#bs-example-navbar-collapse-1 ul ul li.has-sub > a:after {
+  content: '+';
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  margin-top: -8px;
+}
+#bs-example-navbar-collapse-1 ul li:hover > a,
+#bs-example-navbar-collapse-1 ul li.active > a {
+  background: #3399ff;
+  color: #ffffff;
+}
+#bs-example-navbar-collapse-1 ul li.has-sub > a:after {
+  content: '+';
+  margin-left: 5px;
+}
+#bs-example-navbar-collapse-1 ul li.last ul {
+  left: auto;
+  right: 0;
+}
+#bs-example-navbar-collapse-1 ul li.last ul ul {
+  left: auto;
+  right: 89.5%;
+}
+#bs-example-navbar-collapse-1 a {
+  background: #535355;
+  color: #CBCBCB;
+  padding: 0 20px;
+}
+#bs-example-navbar-collapse-1 > ul > li > a {
+    line-height: 45px;
+   /* width: 125px;*/
+    font-size: 15px;
+    text-align: center;
+}
+
+#bs-example-navbar-collapse-1 ul li a:hover,
+#bs-example-navbar-collapse-1 ul li ul li a:hover{
+    border-bottom: 2px solid #535353;
+    border-top: 2px solid #535353;
+    background-color: #009900;
+    height: auto;
+}
+
+
+/*Preberi več*/
+.more-link{
+    width: 50px;
+    font-size: 11pt;
+    text-decoration: underline;
+    text-align: right;
+    visibility: hidden;
+    font-family: cursive;
+}
+
+.more-link:before{
+    content: 'Preberi več...';
+    visibility: visible;
+}
+
+/*container*/
+
+
+
+
+/*
+    =============================
+            Sidebar
+    =============================
+*/
+
+#sidebar{
+    max-width: 300px;
+    width: auto;
+    text-align: left;
+    font-size: 14px;
+}
+
+#sidebar h1{
+    font-size: 20px;
+    /*background-color: #009900;*/
+    background-color: #535353;
+    color: #0099ff;
+    padding: 15px 0;
+    padding-left: 25px;
+      font-family: 'Oxygen Mono', Tahoma, Arial, sans-serif;
+    margin-bottom: 3px;
+}
+
+#sidebar h5{
+    margin-left: 10px;
+    color: #009900;
+    font-size: 16px;
+
+}
+
+/*Search*/
+#searchform div label{
+    visibility: hidden;
+}
+
+#searchform div{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #1b9bff;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+
+.textwidget #sidebar-uradne-ure{
+/*    border: 3px solid #1b9bff; */
+    width: 300px;
+    height: auto;
+    margin-top: 15px;
+    margin-left:  auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    text-align: center;
+    align-content: center;
+    font-size: 15px;
+}
+
+.textwidget #sidebar-uradne-ure tr td{
+    border-bottom: 3px solid #1b9bff;
+    min-width: 35px;
+    max-height: 65px;
+    width: auto;
+    height: 45px;
+    text-align: left;
+
+}
+
+.textwidget #sidebar-uradne-ure tr td td{
+    text-align: left;
+    font-size: 14px;
+}
+
+
+.textwidget .sidebar-map-text ul{
+    list-style: none;
+    font-size: 16px;
+}
+
+.textwidget .sidebar-map-image{
+    margin: auto;
+    width: auto;
+}
+
+/* ===================== WP-CALENDAR ================================= */
+
+.widget_calendar .calendar_wrap #wp-calendar{
+    width: 320px;
+    margin: auto;
+    text-align: center;
+    
+}
+
+/* če je aktiviran pokvar kontak table*/
+
+#calendar-3 #wp-calendar caption{
+    font-size: 20px;
+    text-align: center;
+    color: #333333;
+    text-transform: uppercase;
+}
+
+/*
+#calendar-3 #wp-calendar thead tr th, tbody tr td{
+    border: 2px solid #535355;
+    text-align: center;
+    align-content: center;
+}
+
+#calendar-3 #wp-calendar tbody tr #today{
+    font-weight: bold;
+    font-size: 18px;
+    color: #009900;
+}  
+*/
+
+#wp-calendar thead tr th{
+    border: 2px solid #535355;
+    text-align: center;
+}
+
+#wp-calendar tbody tr td{
+    border: 2px solid #535355;
+    text-align: center;
+}
+
+#today{
+    color: #009900;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+/*
+#wp-calendar td:nth-child(6), #wp-calendar td:nth-child(7){
+    background-color: #b4b4b5;
+}
+*/
+
+/*
+    ===============================
+            Objave
+    ===============================
+*/
+
+/*posts*/
+.post-in-count{
+    background-color: #123456;
+}
+
+
+/*katagorija*/
+.post-categories{
+    font-family: cursive;
+    font-size: 11pt;
+}
+
+/*Izpis datuma in časa*/
+
+#article-post small{
+    font-family: monospace;
+}
+
+
+#article-post{
+    background-color: #FEFEFE;
+}
+
+/*
+    ===============================
+                Domov
+    ===============================
+*/
+
+/*Map tabela*/
+.main-MapTab{
+    float: left;
+    width: 100%;
+}
+
+/*
+.uradne-ure{
+    max-width: 375px;
+    float: left;
+}
+ /*Tabela Uradnih ur *
+.uradne-ure tbody tr td{
+    position: relative;
+    border: solid;
+    border-width: 2px;
+    border-color: black;
+    text-align: center;
+    line-height: 45px;
+    width: 30%;
+    font-family: cursive;
+    color: #1b9bff;
+    background-color: #555555;
+    -moz-opacity: 0.85;
+    opacity: 0.85;
+}
+
+*/
+
+
+#uradne-ure{
+/*    border: 3px solid #1b9bff; */
+    width: 300px;
+    height: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 18px;
+    background-color: #FEFEFE;
+}
+
+#uradne-ure tr td{
+    border: 3px solid #1b9bff;
+    min-width: 35px;
+    max-height: 65px;
+    width: auto;
+    height: 45px;
+}
+
+.dez-tel{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+#dezurstva-telefon{
+    max-width: 450px;
+    height: auto;
+    text-align: center;
+    font-size: 18px;
+    background-color: #FEFEFE;
+    margin: 0 auto;
+}
+
+#dezurstva-telefon tr th{
+    border: 3px solid #009900;
+    height: 45px;
+    text-align: center;
+    font-size: 22px;
+    color: #1b9bff;
+}
+
+#dezurstva-telefon tr td{
+    border: 3px solid #009900;
+    min-width: 35px;
+    max-height: 65px;
+    width: auto;
+    height: 45px;
+}
+
+
+/*slider / courasel*/
+
+.slider-row{
+    padding-bottom: 25px;
+    /* margin-top: 150px; */
+    margin-left: auto;
+    margin-right: auto;
+    background-image: url("slike/ozadje.png");
+    background-repeat: repeat-x;
+    height: auto;
+}
+
+.smooth_slider{
+    margin: 0 auto;
+    /*position: relative;*/
+/*    display: inline-block;*/
+    text-align: center;
+    width: 100%;
+    padding-bottom: 10px;
+}
+
+
+@media all and (max-width: 1210px){
+    .slider-row{
+        visibility: hidden;
+    }
+    .smooth_slider{
+        visibility: visible;
+    }
+}
+
+/*Articel/Post container*/
+#article-post{
+    border-bottom: 3px solid #009900;
+    padding-bottom: 15px;
+    background-color: #EFEFEF;
+}
+
+.post{
+    padding: 0 15px;
+}
+
+.page{
+    padding: 5px 15px;
+}
+
+.entry-title{
+    padding: 10px 15px;
+    color: #FFFFFF;
+    background-color: #39f;
+    /*font-family: Calibri, "Open Sans", Helvetica, sans-serif;*/   
+    font-family: 'Oxygen Mono', Tahoma, Arial, sans-serif;
+    font-size: 22px;
+
+}
+.entry-title a{
+    color: #ffffff;
+    /*font-family: Calibri, "Open Sans", Helvetica, sans-serif;*/
+    font-family: 'Oxygen Mono', Tahoma, Arial, sans-serif;
+}
+
+/*Konec Domov*/
+
+/*
+    =======================
+        Predstavitev
+    =======================
+*/
+
+.tabela_zaposleni-wrap #tabela_zaposleni{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    font-family: "Open Sans", Helvetica, Geneva, sans-serif;
+}
+
+.tabela_zaposleni-wrap #tabela_zaposleni tbody tr{
+    border-bottom: 2px solid #009900;
+}
+
+.tabela_zaposleni-wrap #tabela_zaposleni tbody tr td{
+    min-height: 80px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    height: auto;
+}
+
+.tabela_zaposleni-wrap #tabela_zaposleni tbody tr .tab_ime_zap{
+    font-size: 15px;
+    font-family: Geneva, Helvetica, sans-serif;
+    padding-right: 10px;
+    padding-left: 5px;
+    max-width: 145px;
+    font-weight: 700;
+}
+
+.tabela_zaposleni-wrap #tabela_zaposleni tbody tr .tab_opis{
+    width: 475px;
+    padding-right: 10px;
+    font-weight: bold;
+    font-size: 13px;
+}
+
+.tabela_zaposleni-wrap #tabela_zaposleni tbody tr .tab_tel_zap{
+    max-width: 130px;
+    min-width: 75px; 
+    font-size: 13px;
+    
+}
+
+.tabela_zaposleni-wrap #tabela_zaposleni tbody tr .tab_tel_zap ul{
+    list-style: none;
+    margin: 0;
+    padding-left: 5px;
+    padding-right: 10px;
+    
+}
+
+.tabela_zaposleni-wrap #tabela_zaposleni tbody tr .tab_tel_zap li{
+    margin: 10px 0;
+    
+}
+
+
+.tabela_zaposleni-wrap #tabela_zaposleni tbody tr .tab_email_zap a{
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 13px;
+    
+}
+
+
+/*
+    =========================
+            Anketa
+    =========================
+*/
+
+
+#anketa_wrapper{
+    width: 100%;
+    height: 100%;
+    min-height: 450px;
+    min-width: 300px;
+}
+
+.Anketa{
+    position: relative;
+    max-width: 100%;
+    min-width: 300px;
+    max-height: 100%;
+    min-height: 450px;
+    width: 750px;
+    overflow: hidden;
+}
+
+
+
+/*
+    ==================================
+            Pogosta vprašanja
+    ==================================
+*/
+
+.pog_vpras{ 
+    text-decoration: none;
+    color: #000;
+    display: block;
+}
+
+.pog_vpras ul{ 
+    list-style: none;
+    margin: 0;
+    padding: 0; 
+}
+
+.pog_vpras ul li{
+    margin: 0;
+    padding: 0;
+}
+
+/* Top-level menu */
+.pog_vpras > ul > li{ 
+    /*float: left;*/
+    position: relative;
+}
+
+.pog_vpras > ul > li{ 
+    padding: 10px 30px;
+    border-left: 1px solid #000;
+    /*display: block;*/
+}
+
+.pog_vpras > ul > li:first-child{
+    margin: 0; 
+}
+
+.pog_vpras > ul > li:first-child{
+    border: 0;
+}
+
+/* Dropdown Menu */
+.pog_vpras ul li ul{ 
+    position: relative;
+    background: #ccc;
+    width: 100%; 
+    margin: 0;
+    padding: 0;
+    display: none; 
+}
+
+.pog_vpras ul li ul li{ 
+    text-align: center;
+    width: 100%;
+}
+
+.pog_vpras ul li ul{
+    padding: 10px 0; 
+}
+
+.pog_vpras ul li:hover ul{
+    display: block;
+}
+
+
+/*
+    ===============================
+            TERMINI IZPLAČIL
+    ===============================
+*/
+
+.ter_izplac{ 
+    text-decoration: none;
+    color: #000;
+    display: block;
+}
+
+.ter_izplac ul{ 
+    list-style: none;
+    margin: 0;
+    padding: 0;
+   /* border-left: 2px solid #090;
+    border-top: 2px solid #090;*/
+    box-shadow: -2px -2px 20px #000;
+    -webkit-box-shadow: -2px -2px 20px #000;
+    -moz-box-shadow: -2px -2px 20px #000;
+}
+
+.ter_izplac ul li{
+    margin: 0;
+    padding: 0;
+}
+
+.ter_izplac ul li h4{
+    background-color: #39f;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    height: 45px;
+    line-height: 45px;
+    font-size: 24px;
+}
+
+/* Top-level menu */
+.ter_izplac > ul > li{ 
+  /*  float: left; */
+    position: relative;
+}
+
+.ter_izplac > ul > li{ 
+    padding: 10px 30px;
+  /*  border-left: 1px solid #000;*/
+    /*display: block;*/
+}
+
+.ter_izplac > ul > li:first-child{
+    margin: 0; 
+}
+
+.ter_izplac > ul > li:first-child{
+    border: 0;
+}
+
+/* Dropdown Menu */
+.ter_izplac ul li ul{ 
+    position: relative;
+    background: #ccc;
+    width: 100%; 
+    margin: 0;
+    padding: 0;
+    display: none; 
+}
+
+.ter_izplac ul li ul li{ 
+    text-align: left;
+    width: 100%;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.ter_izplac ul li ul{
+    padding: 10px 0; 
+}
+
+.ter_izplac ul li:hover ul{
+    display: block;
+}
+
+
+/*
+    ============================
+                NOGA
+    ============================
+*/
+
+.row-fluid{
+    background-color: #535355;
+    color: #EFEFEF;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    min-height: 210px;
+}
+
+.noga{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.modul{
+    float: left;
+    min-width: 150px;
+    width: 33%;
+    max-width: 450px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    top: 0px;
+    padding-top: 15px;
+}
+
+.modul-inner{
+    margin: 0 auto;
+    padding-top: 
+}
+
+
+.row-fluid .container{
+    width: 1420px;
+}
+
+.modul h5{
+    font-size: 20px;
+    color: #1b9bff;
+}
+
+.modul a:hover{
+    color: #009900;
+}
+
+
+
+.noga-zahvala{
+    max-width: 210px;
+    max-height: 80px;
+    margin: 0 auto;
+    min-height: 50px;
+    padding-bottom: 15px;
+}
+
+.noga-zahvala-STPS_logo{
+    padding-bottom: 25px;
+    /* margin-top: 150px; */
+    /*background-image: url("slike/logoSTPSkratica.png");*/
+   
+    height: 55px;
+    width: 100px;
+
+    margin: auto;
+    vertical-align: middle;
+    float: left;
+}
+
+.noga-zahvala-STPS_logo .stps-logo{
+    width: 80px;
+    height: 35px;
+    display: block;
+    margin: auto;
+    
+}
+
+.noga-zahvala-napis{
+    padding-top: 8px;
+    max-width: 150px;
+    height: 35px;
+    margin: auto;
+    align-content: center;
+    vertical-align: middle;
+    text-align: center;    
+    display: block;
+    float: right;
+    font-size: 13px;
+}
+
+
+
+/*Tabela*/
+
+
+table{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    font-family: "Open Sans", Helvetica, Geneva, sans-serif;
+}
+
+table tbody tr{
+    border-bottom: 2px solid #1b9bff;
+}
+
+table tbody tr td{
+    min-height: 80px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    height: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
